@@ -16,7 +16,7 @@ class TodoList extends React.Component{
 
     return(
       <ul>
-        <h1>ToDo list goes here</h1>
+        {todoItems}
       </ul>
     )
   }
