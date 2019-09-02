@@ -1,4 +1,6 @@
 import React from 'react';
+import TodoList from './todo_list/todo_list_container';
+
 
 class App extends React.Component {
   constructor(props){
@@ -7,7 +9,9 @@ class App extends React.Component {
 
   render(){
     return (
-      <h1>App Component Return</h1>
+      <div>
+        <TodoList />
+      </div>
     );
   }
 }
